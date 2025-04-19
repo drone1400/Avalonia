@@ -1,0 +1,33 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:AutoCompleteBoxTest.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AutoCompleteBoxTest.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Width="500"
+        Height="400"
+        Title="AvaloniaTestAutoComplete">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
+        <Label Content="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <AutoCompleteBox Text="{Binding Message}" ItemsSource="{Binding Messages}"/>
+        
+        <Label Content="A textbox bound to the same string property..."/>
+        
+        <TextBox Text="{Binding Message}"/>
+        
+        <Button Content="Clear TextBox" Command="{Binding CmdClearMessage}"/>
+    </StackPanel>
+    
+    
+
+</Window>

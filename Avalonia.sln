@@ -300,6 +300,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.Win32.Automation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEmbedSample", "samples\XEmbedSample\XEmbedSample.csproj", "{255614F5-CB64-4ECA-A026-E0B1AF6A2EF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCompleteBoxTest", "samples\AutoCompleteBoxTest\AutoCompleteBoxTest.csproj", "{F8EAB75D-B48F-4E0A-95B1-9BA7F9530EA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -700,6 +702,10 @@ Global
 		{255614F5-CB64-4ECA-A026-E0B1AF6A2EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{255614F5-CB64-4ECA-A026-E0B1AF6A2EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{255614F5-CB64-4ECA-A026-E0B1AF6A2EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EAB75D-B48F-4E0A-95B1-9BA7F9530EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EAB75D-B48F-4E0A-95B1-9BA7F9530EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EAB75D-B48F-4E0A-95B1-9BA7F9530EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EAB75D-B48F-4E0A-95B1-9BA7F9530EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -788,6 +794,7 @@ Global
 		{9AE1B827-21AC-4063-AB22-C8804B7F931E} = {C5A00AC3-B34C-4564-9BDD-2DA473EF4D8B}
 		{0097673D-DBCE-476E-82FE-E78A56E58AA2} = {B39A8919-9F95-48FE-AD7B-76E08B509888}
 		{255614F5-CB64-4ECA-A026-E0B1AF6A2EF4} = {9B9E3891-2366-4253-A952-D08BCEB71098}
+		{F8EAB75D-B48F-4E0A-95B1-9BA7F9530EA1} = {9B9E3891-2366-4253-A952-D08BCEB71098}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87366D66-1391-4D90-8999-95A620AD786A}
